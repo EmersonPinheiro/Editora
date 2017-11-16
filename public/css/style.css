@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
+@font-face {
+    font-family: Mistral;
+    src: url(../fonts/mistral.ttf);
+}
+
+/* TAGS EM GERAL */
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  /* background-color: #CFD8DC; */
+  background-color: #EEEEEE;
+  padding-top: 70px;
+  font-family: 'Lato', sans-serif;
+  color: #263238;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+label {
+  font-weight: lighter;
+}
+
+fieldset {
+  margin-top: 20px;
+}
+
+.popover {
+  width: 250px;
+}
+
+.glyphicon-space:before {
+  margin-right: 5px;
+
+}
+
+.alert-trim {
+  display: inline-block;
+}
+
+.content {
+  margin-bottom: 20px;
+  min-height: 100%;
+  position: relative;
+}
+
+.quadro {
+  background-color: #fff;
+  border-radius: 1px;
+  margin: 10px 0;
+  padding: 20px 30px;
+  box-shadow: .5px .5px .2px #999999;
+}
+
+.btn-bot-space {
+  margin-bottom: 5px;
+}
+
+.btn-right-space {
+  margin-right: 5px;
+}
+
+/* PÁGINA INICIAL */
+
+.quadro-login {
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 10px 0;
+  box-shadow: .5px .5px .2px #999999;
+  min-height: 425px;
+}
+
+.quadro-form-login {
+  padding: 20px 30px;
+}
+
+.quadro-info {
+  background-color: #00695C;
+  border-radius: 1px;
+  margin: 10px 0;
+  min-height: 425px;
+  padding: 40px;
+  color: #fff;
+}
+
+.quadro-editora {
+  background-color: #CFD8DC;
+  border-radius: 1px;
+  margin: 10px 0;
+  min-height: 200px;
+  padding: 40px;
+}
+
+.titulo {
+  border-bottom: 1px solid #CFD8DC;
+  padding-bottom: 5px;
+}
+
+.invisible {
+  display: none;
+}
+
+/* NAVBAR */
+
+.navbar-outro {
+  background-color: #1565C0;
+  color: #ecf0f1;
+}
+
+.navbar-outro .navbar-link {
+  background-color: #1565C0;
+  color: #ecf0f1;
+}
+
+.navbar-outro .navbar-link:hover {
+  background-color: #0D47A1;
+  color: #ecf0f1;
+}
+
+.navbar-outro .navbar-link input[type=submit]{
+  padding:15px;
+  color:white;
+  border:none;
+  text-decoration: none;
+}
+
+.navbar-outro .navbar-link:hover {
+  background-color: #0D47A1;
+  color: #ecf0f1;
+}
+
+.navbar-outro .navbar-link:focus {
+  background-color: #0D47A1;
+  color: #ecf0f1;
+}
+
+.navbar-outro .navbar-brand {
+  color: #ecf0f1;
+  font-family: 'Mistral';
+  font-size: 22pt;
+}
+
+.navbar-outro .navbar-toggle span{
+  background-color: #ecf0f1;
+}
+
+.navbar-outro .active {
+  background-color: #0D47A1;
+}
+
+.navbar-outro .desc {
+  margin: 6px 0 0 10px;
+  font-size: 9pt;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #CFD8DC;
+  padding: 15px;
+  margin-top: auto;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+/* PAINEL */
+
+.painel-propostas .panel-heading {
+  background-color: #E0E0E0;
+}
+
+.painel-propostas .panel-footer {
+  background-color: #EEEEEE;
+}
+
+.painel-propostas .panel-body {
+  min-height: 300px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.painel-notificacoes .panel-body {
+  min-height: 300px;
+  max-height: 450px;
+  overflow: auto;
+}
+
+.painel-notificacoes .panel-body .alert {
+  margin-bottom: 5px;
+}
+
+.list-group {
+  margin-bottom: 5px;
+}
+
+.list-group .list-group-item {
+  border-radius: 0;
+}
+
+.list-group .titulo-lista {
+  background-color: #EEEEEE;
+}
+
+/* INFORMAÇÕES DA PROPOSTA */
+.painel-info-proposta .panel-body, .painel-info-proposta .panel-footer {
+  padding: 20px 40px;
+}
+
+.painel-info-proposta .titulo {
+  margin-top: 30px;
+}
